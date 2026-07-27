@@ -1,29 +1,46 @@
-# Python
+# Python cache
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
 
 # Virtual environments
 venv/
+env/
 .venv/
+conda-env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
 
 # IDE
-.idea/
 .vscode/
+.idea/
 
 # MLflow
 mlruns/
 mlflow.db
 
-# Model artifacts (optional)
+# ML models
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+
+# Datasets
+data/*.csv
+data/*.xlsx
+
+# Logs
+*.log
+
+# Docker images
 *.tar
 
 # Temporary files
-*.log
-
-# Jupyter checkpoints
-.ipynb_checkpoints/
+*.tmp
 
 # OS files
 .DS_Store
