@@ -1,0 +1,44 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+conda-env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# ML models (large files)
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+
+# MLflow files
+mlruns/
+mlflow.db
+
+# Datasets
+data/*.csv
+data/*.xlsx
+
+# Logs
+*.log
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.tar
